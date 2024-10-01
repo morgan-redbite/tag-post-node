@@ -6,7 +6,7 @@
   "author": "itemit",
   "license": "MIT",
   "dependencies": {
-    "body-parser": "^1.20.2",
+    "body-parser": "^1.20.3",
     "dotenv": "^16.4.5",
     "express": "^4.19.2",
     "express-basic-auth": "^1.2.1",
