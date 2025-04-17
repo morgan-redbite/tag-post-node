@@ -1,5 +1,5 @@
 
-# HTTP Post for Zebra Reader Tag Data V1
+# HTTP Post for Zebra Reader Tag Data V1 for [itemit](https://itemit.com) IoT Connector
 
 ### Quick Setup Web Server with Basic Auth
 
@@ -34,3 +34,4 @@ BASIC_AUTH_PASSWORD=supersecret
 You may fork this template and deploy on Railway quickly:
 
 [![Deploy on Railway](https://railway.app/button.svg)](https://railway.app/template/naLkNn?referralCode=zEKVel)
+
