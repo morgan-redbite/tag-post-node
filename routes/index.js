@@ -17,7 +17,6 @@ router.get('/tag-view', (req, res) => {
 
 // Endpoint to receive tag data
 router.post('/tag-data', (req, res) => {
-  console.log(req.body);
   // Notify all connected clients about the new tag data
   if (wss) {
     wss.clients.forEach(client => {
@@ -35,7 +34,6 @@ router.post('/tag-data', (req, res) => {
 router.post('/tag-data-save', async (req, res) => {
   try {
     // Notify all connected clients about the new tag data
-    console.log('req', req.body)
     if (req.body && Array.isArray(req.body)) {
       console.log('SAVING TAG DATA');
       const newBatch = new BatchTagData({
