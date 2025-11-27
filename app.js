@@ -42,7 +42,7 @@ setupWebSocket(server);
 
 const start = async () => {
   try {
-    await connectMongo();
+    // await connectMongo();
     server.listen(PORT, () => {
       console.log(`Server running at http://localhost:${PORT}/`);
     });
